@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC6D9B620C8164100CAB45D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC6D9B520C8164100CAB45D /* AppDelegate.swift */; };
+		0EC6D9B820C8164100CAB45D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC6D9B720C8164100CAB45D /* ViewController.swift */; };
+		0EC6D9BB20C8164100CAB45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC6D9B920C8164100CAB45D /* Main.storyboard */; };
+		0EC6D9BD20C8164300CAB45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC6D9BC20C8164300CAB45D /* Assets.xcassets */; };
+		0EC6D9C020C8164300CAB45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC6D9BE20C8164300CAB45D /* LaunchScreen.storyboard */; };
+		0EC6D9CA20C9392E00CAB45D /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EC6D9C920C9392E00CAB45D /* credentials.plist */; };
+		0EC6D9D020C9A4A000CAB45D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC6D9CF20C9A4A000CAB45D /* Constants.swift */; };
+		DE12D85ADB68C88BE5326466 /* Pods_WhatsMyMeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BF3A193BC54E86795E0DCA /* Pods_WhatsMyMeal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EC6D9B220C8164100CAB45D /* WhatsMyMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsMyMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC6D9B520C8164100CAB45D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EC6D9B720C8164100CAB45D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EC6D9BA20C8164100CAB45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EC6D9BC20C8164300CAB45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EC6D9BF20C8164300CAB45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EC6D9C120C8164300CAB45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC6D9C920C9392E00CAB45D /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		0EC6D9CB20C941D000CAB45D /* WhatsMyMeal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatsMyMeal-Bridging-Header.h"; sourceTree = "<group>"; };
+		0EC6D9CF20C9A4A000CAB45D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		85BF3A193BC54E86795E0DCA /* Pods_WhatsMyMeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsMyMeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED41D46B6F96545502090682 /* Pods-WhatsMyMeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsMyMeal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsMyMeal/Pods-WhatsMyMeal.debug.xcconfig"; sourceTree = "<group>"; };
+		F9DB06AE2D09086B58796E60 /* Pods-WhatsMyMeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsMyMeal.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsMyMeal/Pods-WhatsMyMeal.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EC6D9AF20C8164100CAB45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE12D85ADB68C88BE5326466 /* Pods_WhatsMyMeal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC6D9A920C8164100CAB45D = {
+			isa = PBXGroup;
+			children = (
+				0EC6D9B420C8164100CAB45D /* WhatsMyMeal */,
+				0EC6D9B320C8164100CAB45D /* Products */,
+				40428C2435FE2404B3E165B5 /* Pods */,
+				1798482FC04077DCF54829CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0EC6D9B320C8164100CAB45D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EC6D9B220C8164100CAB45D /* WhatsMyMeal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EC6D9B420C8164100CAB45D /* WhatsMyMeal */ = {
+			isa = PBXGroup;
+			children = (
+				0EC6D9B520C8164100CAB45D /* AppDelegate.swift */,
+				0EC6D9B720C8164100CAB45D /* ViewController.swift */,
+				0EC6D9CF20C9A4A000CAB45D /* Constants.swift */,
+				0EC6D9B920C8164100CAB45D /* Main.storyboard */,
+				0EC6D9BC20C8164300CAB45D /* Assets.xcassets */,
+				0EC6D9BE20C8164300CAB45D /* LaunchScreen.storyboard */,
+				0EC6D9C120C8164300CAB45D /* Info.plist */,
+				0EC6D9C920C9392E00CAB45D /* credentials.plist */,
+				0EC6D9CB20C941D000CAB45D /* WhatsMyMeal-Bridging-Header.h */,
+			);
+			path = WhatsMyMeal;
+			sourceTree = "<group>";
+		};
+		1798482FC04077DCF54829CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85BF3A193BC54E86795E0DCA /* Pods_WhatsMyMeal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40428C2435FE2404B3E165B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED41D46B6F96545502090682 /* Pods-WhatsMyMeal.debug.xcconfig */,
+				F9DB06AE2D09086B58796E60 /* Pods-WhatsMyMeal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EC6D9B120C8164100CAB45D /* WhatsMyMeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC6D9C420C8164300CAB45D /* Build configuration list for PBXNativeTarget "WhatsMyMeal" */;
+			buildPhases = (
+				5B163C354D52BEF0FDA62C28 /* [CP] Check Pods Manifest.lock */,
+				0EC6D9AE20C8164100CAB45D /* Sources */,
+				0EC6D9AF20C8164100CAB45D /* Frameworks */,
+				0EC6D9B020C8164100CAB45D /* Resources */,
+				0D647BCC5C9F0553DFF8583C /* [CP] Embed Pods Frameworks */,
+				B3711AE756E80088F3124B35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsMyMeal;
+			productName = WhatsMyMeal;
+			productReference = 0EC6D9B220C8164100CAB45D /* WhatsMyMeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EC6D9AA20C8164100CAB45D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mokhamad Valid Kazimi";
+				TargetAttributes = {
+					0EC6D9B120C8164100CAB45D = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 0EC6D9AD20C8164100CAB45D /* Build configuration list for PBXProject "WhatsMyMeal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EC6D9A920C8164100CAB45D;
+			productRefGroup = 0EC6D9B320C8164100CAB45D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EC6D9B120C8164100CAB45D /* WhatsMyMeal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EC6D9B020C8164100CAB45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC6D9C020C8164300CAB45D /* LaunchScreen.storyboard in Resources */,
+				0EC6D9CA20C9392E00CAB45D /* credentials.plist in Resources */,
+				0EC6D9BD20C8164300CAB45D /* Assets.xcassets in Resources */,
+				0EC6D9BB20C8164100CAB45D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D647BCC5C9F0553DFF8583C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WhatsMyMeal/Pods-WhatsMyMeal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsMyMeal/Pods-WhatsMyMeal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B163C354D52BEF0FDA62C28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsMyMeal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3711AE756E80088F3124B35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WhatsMyMeal/Pods-WhatsMyMeal-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhatsMyMeal/Pods-WhatsMyMeal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EC6D9AE20C8164100CAB45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC6D9B820C8164100CAB45D /* ViewController.swift in Sources */,
+				0EC6D9B620C8164100CAB45D /* AppDelegate.swift in Sources */,
+				0EC6D9D020C9A4A000CAB45D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EC6D9B920C8164100CAB45D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EC6D9BA20C8164100CAB45D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EC6D9BE20C8164300CAB45D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EC6D9BF20C8164300CAB45D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EC6D9C220C8164300CAB45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EC6D9C320C8164300CAB45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EC6D9C520C8164300CAB45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED41D46B6F96545502090682 /* Pods-WhatsMyMeal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29T55S4ZM2;
+				INFOPLIST_FILE = WhatsMyMeal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazimi.WhatsMyMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhatsMyMeal/WhatsMyMeal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EC6D9C620C8164300CAB45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DB06AE2D09086B58796E60 /* Pods-WhatsMyMeal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29T55S4ZM2;
+				INFOPLIST_FILE = WhatsMyMeal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazimi.WhatsMyMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhatsMyMeal/WhatsMyMeal-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EC6D9AD20C8164100CAB45D /* Build configuration list for PBXProject "WhatsMyMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC6D9C220C8164300CAB45D /* Debug */,
+				0EC6D9C320C8164300CAB45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EC6D9C420C8164300CAB45D /* Build configuration list for PBXNativeTarget "WhatsMyMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC6D9C520C8164300CAB45D /* Debug */,
+				0EC6D9C620C8164300CAB45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EC6D9AA20C8164100CAB45D /* Project object */;
+}
