@@ -8,4 +8,4 @@ Use this Google Spreadsheet to get the necessary meal and worker name informatio
   - Using GoogleSignIn SDK
 2. Ask for the user's name, store the name in the app for future use.
 3. In the aforementioned Google Spreadsheet document find the Sheet that corresponds with the day of the week the app is used. Find the row with the user's name. Build his meal list and present it on the screen.
- - Using Google Sheets API (GoogleAPIClientForREST/Sheets)
+  - Using Google Sheets API (GoogleAPIClientForREST/Sheets)
